@@ -14,9 +14,7 @@ Below are logs of group meetings.
 2. 下一次Meeting定为 7.12下周二 北京时间21:00-22:00 英国时间14:00-15:00 美国时间9:00-10:00
 
 ## Summary 7.12 GM3:
-
 ### Task Allocation 
-
 - Ludens:
     1. Take his own jobs regarding behavioral cloning
 - The other three:
@@ -24,7 +22,7 @@ Below are logs of group meetings.
 
         **Note: Once you have already watched this tutorial before this Saturday, please speak up on WeChat and provide any ideas and thoughts!**
 
-    2. Search for any materials on which algorithm included are directly implemented on VizDoom environment and then post links you found on WeChat for others to see and discuss on
+    2. Search for any materials on which algorithms included are directly implemented on VizDoom environment and then post links you found on WeChat for others to see and discuss on
 
 ### Scheduled time for next GM
 7.16 This Saturday (right after lecture) 北京时间18:00-19:30 英国时间11:00-12:30 美国时间6:00-7:30
