@@ -14,7 +14,7 @@ Below are logs of group meetings.
 2. 下一次Meeting定为 7.12下周二 北京时间21:00-22:00 英国时间14:00-15:00 美国时间9:00-10:00
 
 ## Summary 7.12 GM3:
-### Task Allocation ：
+### Task Allocation：
 - Ludens:
     1. Take his own jobs regarding behavioral cloning
 - The other three:
