@@ -43,7 +43,7 @@ Below are logs of group meetings.
     Corresponding possible solutions:
 
     1. Use command lines to operate the game
-    2. Try basic scenario first (Or similarly, degrade the difficulty level your chosen scenario)
+    2. Try basic scenario first (Or similarly, degrade the difficulty level of your chosen scenario)
 
 - The other three:
 
