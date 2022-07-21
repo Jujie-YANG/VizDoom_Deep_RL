@@ -54,3 +54,33 @@ Below are logs of group meetings.
 
 ### Scheduled time for next GM：
 7.21 Next Thursday 北京时间19:00-20:00 英国时间12:00-13:00 美国时间7:00-8:00
+
+
+## Summary 7.21 GM5:
+### Work Progress:
+- Ludens:
+  1. 现有的模型跑得很成功，很快收敛
+  
+- Others:
+  1. Mainly focus on implementing three algorithms ([PPO](https://www.youtube.com/watch?v=eBCU-tqLGfQ&t=9491s), [Double Q](https://github.com/boubnanm/Deep-Reinforcement-Learning-applied-to-DOOM) and [DQN in the official website](https://github.com/mwydmuch/ViZDoom/blob/master/examples/python/learning_pytorch.py)) in the basic scenario 
+  2. Give up other algorithms
+
+### Next Step:
+- Ludens:
+  1. 加上tensorboard，看一下有什么metric可以与其它三个基础algorithms对比 (Tensorboard 能多display params就多加一些params，到时候好和Cornor跑的对比)
+  2. Record a video (and better convert to a gif) of 20 episodes running on the trained saved model 
+
+- Others:
+  1. 简化algorithms that run very slowly (Ludens can give any suggestions on how to simplify those two algorithms([Double Q](https://github.com/boubnanm/Deep-Reinforcement-Learning-applied-to-DOOM) and [DQN in the official website](https://github.com/mwydmuch/ViZDoom/blob/master/examples/python/learning_pytorch.py)) regarding the specific code. Ludens给的建议很好，有可能是模型太大，用在basic这个scenario有点大材小用，比如可能层数太多，跑得很慢)
+  2. Increase the training episodes of Double Q to 100,000 (100k) (If the result is still not going well)
+  3. add a tensorboard for the DQN algorithm and then retrain DQN (Tensorboard 能多display params就多加一些params，到时候好和Ludens跑的对比)
+  4. Record three videos (and better convert to gif(s)) of 20 episodes running on three trained model
+
+  5. Extra Work: (Compare the performance of PPO algorithms based on different params)
+      1. learning rate (lr): 0.001, 0.0001 and 0.00001
+      2. resolution: 320*240 -> 45*30?
+      3. Any other params if possible?
+
+
+### Scheduled time for next GM：
+7.22 This Friday 北京时间19:00-20:00 英国时间12:00-13:00 美国时间7:00-8:00
