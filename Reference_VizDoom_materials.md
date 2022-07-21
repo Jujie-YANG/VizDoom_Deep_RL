@@ -4,7 +4,7 @@
 
 [PPO](https://www.youtube.com/watch?v=eBCU-tqLGfQ&t=9491s)
 
-[Gradient Policy / Reinforce Method](https://www.youtube.com/playlist?list=PL727ZiROGQaaG2BgwY5Wt4J0ea03tbonC)
+[Gradient Policy / Reinforce Method](https://www.youtube.com/playlist?list=PL727ZiROGQaaG2BgwY5Wt4J0ea03tbonC) - [Corresponding GitHub code](https://github.com/hughperkins/youtube-rl-demos)
 
 [A2C + ACKTR](https://github.com/p-kar/a2c-acktr-vizdoom)
 
