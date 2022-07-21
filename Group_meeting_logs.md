@@ -78,7 +78,7 @@ Below are logs of group meetings.
 
   5. Extra Work: (Compare the performance of PPO algorithms based on different params)
       1. learning rate (lr): 0.001, 0.0001 and 0.00001
-      2. resolution: 320*240 -> 45*30?
+      2. resolution: 320*240 -> 45*30? (160,120 1280*720) 
       3. Any other params if possible?
 
 
