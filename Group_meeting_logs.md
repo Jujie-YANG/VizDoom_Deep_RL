@@ -80,7 +80,26 @@ Below are logs of group meetings.
       1. learning rate (lr): 0.001, 0.0001 and 0.00001
       2. resolution: 320*240 -> 45*30? (160,120 1280*720) - [Check available RES here](https://github.com/mwydmuch/ViZDoom/blob/0e6d1ad9bc6b4d0b5b5b2dcc8f540a7c34863515/src/lib/ViZDoomGame.cpp)
       3. Any other params if possible?
+      4. discount factor 学习率
 
 
 ### Scheduled time for next GM：
 7.22 This Friday 北京时间19:00-20:00 英国时间12:00-13:00 美国时间7:00-8:00
+
+
+## Summary 7.22 GM6:
+### Task Allocation：
+- Ludens & Cornor:
+  1. 把能提供的可视化Tensorboard文件 & 20 episode 视频(gif) 发在群里（ddl：这周天(24/07)）
+  2. 统一algorithms变量：
+      - 按钮 —— 1帧  
+      - 开枪后收集reward —— 4帧 
+      - 单局帧数上限  —— 256帧
+  3. 周天之后，整理好所有的code，上传GitHub
+
+- Jacky & Jelly:
+  1. PPT & report (这周天前私下沟通交流任务分配）
+  2. 周天之后，根据Ludens&Cornor发的 可视化数据 & github上的code，开始写PPT & report (PPT在下周四(28/07)前完成)
+
+### Scheduled time for next GM：
+7.28 Next Thursday 北京时间19:00-20:00 英国时间12:00-13:00 美国时间7:00-8:00 (重要沟通周六的Final Presentation)
