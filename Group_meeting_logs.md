@@ -102,4 +102,4 @@ Below are logs of group meetings.
   2. 周天之后，根据Ludens&Cornor发的 可视化数据 & github上的code，开始写PPT & report (PPT在下周四(28/07)前完成)
 
 ### Scheduled time for next GM：
-7.28 Next Thursday 北京时间19:00-20:00 英国时间12:00-13:00 美国时间7:00-8:00 (重要沟通周六的Final Presentation)
+7.28 Next Thursday 北京时间19:00-20:00 英国时间12:00-13:00 美国时间7:00-8:00 (主要沟通周六的Final Presentation)
