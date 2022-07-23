@@ -101,5 +101,8 @@ Below are logs of group meetings.
   1. PPT & report (这周天前私下沟通交流任务分配）
   2. 周天之后，根据Ludens&Cornor发的 可视化数据 & github上的code，开始写PPT & report (PPT在下周四(28/07)前完成)
 
+### Probably useful links  
+[A guide of how to use Tensorboard to visualize models](https://pytext.readthedocs.io/en/master/visualize_your_model.html))
+
 ### Scheduled time for next GM：
 7.28 Next Thursday 北京时间19:00-20:00 英国时间12:00-13:00 美国时间7:00-8:00 (主要沟通周六的Final Presentation)
