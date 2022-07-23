@@ -118,7 +118,7 @@ Below are logs of group meetings.
 ## Summary 7.23 Meeting(Jelly & Jacky)
 ### Tasks
 Cornor & Ludens:
-1. 这周天把所有的tensorboard文件发进群里 今天我和组长已经开过会 有了你们的数据 我们可以开始写ppt&report了
+1. 这周天把所有的tensorboard文件上传GitHub 今天我和组长已经开过会 有了你们的数据 我们可以开始写ppt&report了
 2. 把代码整理好上传GitHub，方便组长和我熟悉代码 
 3. 留意代码自己的细节 **(下周一到周三组长会找你们开会，你们需要截取部分代码，主要有关三部分的细节：Preprocessing, Model, Results)**
 
