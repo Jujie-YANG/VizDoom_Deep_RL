@@ -19,12 +19,12 @@ from tqdm import trange
 from torch.utils.tensorboard import SummaryWriter
 
 # Q-learning settings
-learning_rate = 0.00025
+learning_rate = 0.0001
 discount_factor = 0.99
-train_epochs = 50
-learning_steps_per_epoch = 2048
+train_epochs = 100
+learning_steps_per_epoch = 1024
 replay_memory_size = 10000
-writer = SummaryWriter('./path/to/log')
+writer = SummaryWriter('.log/')
 
 # NN learning settings
 batch_size = 64
@@ -139,9 +139,9 @@ def run(game, agent, actions, num_epochs, frame_repeat, steps_per_epoch=100):
 
         print("Results: mean: %.1f +/- %.1f," % (train_scores.mean(), train_scores.std()),
               "min: %.1f," % train_scores.min(), "max: %.1f," % train_scores.max())
-        writer.add_scalar('Reward Ave.Reward/steps', train_scores.mean(), epoch)
-        writer.add_scalar('Reward Min.Reward/steps', train_scores.min(), epoch)
-        writer.add_scalar('Reward Max.Reward/steps', train_scores.max(), epoch)
+        writer.add_scalar('Reward Ave.Reward/steps', train_scores.mean(), epoch*learning_steps_per_epoch)
+        writer.add_scalar('Reward Min.Reward/steps', train_scores.min(), epoch*learning_steps_per_epoch)
+        writer.add_scalar('Reward Max.Reward/steps', train_scores.max(), epoch*learning_steps_per_epoch)
         if save_model:
             print("Saving the network weights to:", model_savefile)
             torch.save(agent.q_net, model_savefile)
