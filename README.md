@@ -14,7 +14,7 @@ In this project, we are mentioned about four algorithms, i.e., PPO(Proximal Poli
 
 - PPO 
     1. run trained best model:
-        ```model.load('Save_models/PPO_best_model_60000.zip')```
+        ```model.load('best_model/PPO_best_model_60000.zip')```
 
 #### The structure of the folders
 
@@ -25,5 +25,5 @@ The requirement about PPO is already included in the .ipynb file; Need to instal
 
 
 ## Others/Extra
-PPO_best_model_60000_GoogleDrive_link on Google Drive: https://drive.google.com/file/d/1Pn1TMUw5bGvsFw_Ge_KQ9tImQm2ySZFb/view?usp=sharing 
+PPO_best_model_60000_GoogleDrive_link on Cornor's Google Drive: https://drive.google.com/file/d/1Pn1TMUw5bGvsFw_Ge_KQ9tImQm2ySZFb/view?usp=sharing 
 
