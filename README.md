@@ -27,3 +27,11 @@ The requirement about PPO is already included in the .ipynb file; Need to instal
 ## Others/Extra
 PPO_best_model_60000_GoogleDrive_link on Cornor's Google Drive: https://drive.google.com/file/d/1Pn1TMUw5bGvsFw_Ge_KQ9tImQm2ySZFb/view?usp=sharing 
 
+
+## Explanation
+- basic_scenario_spectator_Duel_DQN and basic_scenario_Duel_DQN is trained on (30,45) resolution, while basic_scenario_PPO is trained on (160,100) resolution
+
+- Test Results for Spectator trained models: (Tensorboard file names)
+    - P = Pre-Training epochs
+    - S = Spectator Training epochs
+    - N = Normal Training epochs
