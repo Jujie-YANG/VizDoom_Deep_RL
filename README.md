@@ -11,7 +11,7 @@ In this project, we are mentioned about four algorithms, i.e., PPO(Proximal Poli
 ### 1. How to run the code
 - Duel DQN
     1. 
-    
+
 - PPO 
     1. run trained best model:
         ```model.load('Save_models/PPO_best_model_60000.zip')```
@@ -21,3 +21,9 @@ In this project, we are mentioned about four algorithms, i.e., PPO(Proximal Poli
 ### 2. requirements
 
 The requirement about PPO is already included in the .ipynb file; Need to install pytorch, tensorboard, ... as the precondition.
+
+
+
+## Others/Extra
+PPO_best_model_60000_GoogleDrive_link on Google Drive: https://drive.google.com/file/d/1Pn1TMUw5bGvsFw_Ge_KQ9tImQm2ySZFb/view?usp=sharing 
+
