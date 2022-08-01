@@ -21,37 +21,26 @@ PyTorch and we used Tensorboard on Tensorflow to observe the results
 
 ### 2. The structure of the folders
 - Three main running files:
-    - 'basic_scenario_PPO.ipynb' PPO model
-    - 'basic_scenario_Duel_DQN.py' Dueling DQN model
-    - 'basic_scenario_spectator_Duel_DQN.py' Imitation Learning using Dueling DQN model
+    - 'basic_scenario_PPO.ipynb' -- PPO model
+    - 'basic_scenario_Duel_DQN.py' -- Dueling DQN model
+    - 'basic_scenario_spectator_Duel_DQN.py' -- Imitation Learning using Dueling DQN model
 
-- One log file of our group meetings: 'Group_meeting_logs.md'
-
-
+- One log file of our group meetings: 'Group_meeting_logs.md', where we recorded the process of how we organize our project. 
 
 ### 3. How to run the code
-
-- Duel DQN
-    1. 
-
-- PPO 
-    1. run trained best model:
-        ```model.load('best_model/PPO_best_model_60000.zip')```
-
-
-
+- Load trained best model:
+    - PPO: ```model.load('best_model/PPO_best_model_60000.zip')```
+    - Dueling DQN: ```model.load('best_model/Duel_DQN_basic_scenario_best_model.pth')```
+    - Imitation Learning using Dueling DQN: ```model.load(best_model/Spectator_Training_best_model.pth)```
 
 ## Other Explanations
-- PPO_best_model_60000_GoogleDrive_link on Cornor's Google Drive: https://drive.google.com/file/d/1Pn1TMUw5bGvsFw_Ge_KQ9tImQm2ySZFb/view?usp=sharing 
 
 
+- Dueling DQN model used (30,45) resolution, while PPO model is trained on (160,100) resolution
 
-- basic_scenario_spectator_Duel_DQN and basic_scenario_Duel_DQN is trained on (30,45) resolution, while basic_scenario_PPO is trained on (160,100) resolution
-
-- Test Results for Spectator trained models: (Tensorboard file names)
+- Test Results for Spectator trained models: (Explanation to the Tensorboard file names)
     - P = Pre-Training epochs
     - S = Spectator Training epochs
     - N = Normal Training epochs
 
-
-[How to teach AI to play Games: Deep Reinforcement Learning](https://towardsdatascience.com/how-to-teach-an-ai-to-play-games-deep-reinforcement-learning-28f9b920440a)
+- If there is something wrong with loading the stored best model of 'best_model/PPO_best_model_60000.zip', there is a backup GoogleDrive link on Cornor's Google Drive: https://drive.google.com/file/d/1Pn1TMUw5bGvsFw_Ge_KQ9tImQm2ySZFb/view?usp=sharing
