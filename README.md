@@ -19,7 +19,7 @@ PyTorch and we used Tensorboard on Tensorflow to observe the results
 ### 1. Requirements:
 - Successfully install all packages that are used in each running file, including ViZDoom, PyTorch, Tensorboard. For the instruction of how to install ViZDoom, please see [the official GitHub repo](https://github.com/mwydmuch/ViZDoom)
 
-### The structure of the folders
+### 2. The structure of the folders
 - Three main running files:
     - 'basic_scenario_PPO.ipynb' PPO model
     - 'basic_scenario_Duel_DQN.py' Dueling DQN model
@@ -29,7 +29,7 @@ PyTorch and we used Tensorboard on Tensorflow to observe the results
 
 
 
-### 2. How to run the code
+### 3. How to run the code
 
 - Duel DQN
     1. 
