@@ -34,8 +34,6 @@ PyTorch and we used Tensorboard on Tensorflow to observe the results
     - Imitation Learning using Dueling DQN: ```model.load(best_model/Spectator_Training_best_model.pth)```
 
 ## Other Explanations
-
-
 - Dueling DQN model used (30,45) resolution, while PPO model is trained on (160,100) resolution
 
 - Test Results for Spectator trained models: (Explanation to the Tensorboard file names)
@@ -44,3 +42,12 @@ PyTorch and we used Tensorboard on Tensorflow to observe the results
     - N = Normal Training epochs
 
 - If there is something wrong with loading the stored best model of 'best_model/PPO_best_model_60000.zip', there is a backup GoogleDrive link on Cornor's Google Drive: https://drive.google.com/file/d/1Pn1TMUw5bGvsFw_Ge_KQ9tImQm2ySZFb/view?usp=sharing
+
+## Learning Materials
+- ### Tutorials:
+    - [Bilibili:【莫烦Python】强化学习 Reinforcement Learning](https://www.bilibili.com/video/BV13W411Y75P?p=31&vd_source=4e20016bd1355fe9ad9e32194a97d42a)
+    - [莫烦official web: reinforcement learning](https://mofanpy.com/tutorials/machine-learning/reinforcement-learning/)
+
+- ### Articles:
+    - [Q-Learning vs. Dynamic Programming](https://www.baeldung.com/cs/q-learning-vs-dynamic-programming)
+    - [Bellman Equation and dynamic programming](https://medium.com/analytics-vidhya/bellman-equation-and-dynamic-programming-773ce67fc6a7)
